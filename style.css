@@ -1,0 +1,69 @@
+body {
+	background: skyblue;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: 0;
+}
+.calculator {
+	position: relative;
+	background: gray;
+	width: 500px;
+	height: 650px;
+	margin: 150px auto auto auto;
+	border-radius: 32px;
+}
+.window {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: white;
+	width: 440px;
+	height: 100px;
+	border-radius: 16px;
+	color: black;
+	font-size: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	padding-right: 20px;
+	font-weight: 700;
+}
+.operations,
+.numbers {
+	position: absolute;
+	top: 150px;
+}
+.equal,
+.arrow,
+.operation,
+.number {
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 16px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background: white;
+	width: 100px;
+	height: 100px;
+	color: black;
+	font-size: 48px;
+}
+.equal,
+.arrow {
+	background: seagreen;
+	color: white;
+}
+
+.threegroup {
+	display: flex;
+}
+.operations {
+
+	left: 360px;
+}
+.operation {
+	background: orange;
+	color: white;
+}
